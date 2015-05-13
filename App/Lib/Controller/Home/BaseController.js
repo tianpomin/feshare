@@ -10,6 +10,8 @@ module.exports = Controller(function(){
     init: function(http){
       this.super("init", http);
       //其他的通用逻辑
+      console.log(http.controller);
+      this.assign('nav', http.controller);
     }
   }
 })

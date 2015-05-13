@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/resource/css/index/index.css">
+</head>
+<body>
+	<div id="doc">
+		<% include ../base/base_header.html %>
+		<div class="share-list">
+			<%if(data.list) {%>
+				<ul class="row">
+				<%data.list.forEach(function(item){%>			
+					<li class="col-sm-6 col-md-4">
+						<a class="thumbnail" href="/detail/<%=item.id%>">						
+							<img src='<%=item.thumb||"http://img5.douban.com/lpic/s11329547.jpg"%>' alt="<%=item.title%>">
+							<div class="caption">
+								<h4>
+									<span><%=item.title%></span>
+									<span><%=item.author%></span>
+								</h4>								
+								<p><%=item.info||"hheheh"%></p>
+							</div>
+						</a>
+					</li>			
+				<%})%>
+				</ul>
+			<%}%>
+		</div>
+	</div>
+	<script src="/resource/js/lib/jquery-2.1.4.js"></script>
+	<script src="/resource/js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
