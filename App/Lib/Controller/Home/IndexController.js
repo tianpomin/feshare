@@ -12,47 +12,47 @@ module.exports = Controller("Home/BaseController", function(){
       	"list": [{
       		"id": 0,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 1,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	},
       	{
       		"id": 2,
       		"title": "http权威指南",
-      		"author": "黄小璐"
+      		"author": "huangxiaolu"
       	}]
       });
       this.display();
